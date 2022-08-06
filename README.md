@@ -1,1 +1,0 @@
-# Python_projects_and_exercises
