@@ -1,7 +1,7 @@
 '''
 We're getting to some more advanced coding exercises!
 
-We have provided you with two variables:
+We have provided you with two variables
 
 nearby_people = {'Rolf', 'Jen', 'Anna'}
 user_friends = set() # This is an empty set, like {}
