@@ -27,3 +27,4 @@ if near_friends == {}:
     print(None)
 else:
     print(user_friends.intersection(nearby_people))
+
