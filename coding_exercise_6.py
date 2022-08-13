@@ -4,7 +4,7 @@ Instead of printing multiples of 3, print "Fizz"
 Instead of printing multiples of 5, print "Buzz"
 Instead of printing multiples of both 3 and 5, print "FizzBuzz".
 That means your program will print a combination of numbers, Fizz , Buzz , and FizzBuzz .
-For example:
+For example,
 1
 2
 Fizz , since  3 is a multiple of 3
