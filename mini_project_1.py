@@ -69,3 +69,5 @@ while prog_on:
         print(movie for movie in movies)
     elif user_choice == '5':
         change_info()
+    else:
+        print("Wrong input, please check again!")
