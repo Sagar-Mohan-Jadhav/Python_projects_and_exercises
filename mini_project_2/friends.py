@@ -3,7 +3,7 @@
 # present in the city and who are also user's friends will be stored in the nearby_friends.txt file.
 
 def nearby_or_not(people_content):
-    friends = input("Enter the names of 3 friends separated by white space: ")
+    friends = input("Enter the names of friends separated by white space: ")
     friends = (friends.title()).split()
     people_content = (people_content.title()).split()
     nearby = ""
