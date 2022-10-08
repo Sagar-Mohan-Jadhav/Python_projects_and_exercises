@@ -19,7 +19,15 @@ file = open("questions.txt", 'r')
 questions = file.read()
 file.close()
 questions = questions.split()
+count = 0
 for index1 in range(len(questions)):
     for index2 in range(len(questions[index1])):
         if questions[index1][index2] == '=':
-            print("yes")
+            print(questions[index1][0: index2 + 1])
+            answer = input()
+            if answer == questions[index1][index2 + 1]:
+                count = count + 1
+
+answer_file = open("result.txt", 'w')
+answer_file.write(f'Your final score is {count}/{len(questions)}.')
+answer_file.close()
