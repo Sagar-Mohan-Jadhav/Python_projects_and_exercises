@@ -1,5 +1,5 @@
 # write a python program that will ask user three names of friends and then the program will check whether the people
-# enterd by user are in the city or not. The people in the city are already present in the people.txt file. The people
+# entered by user are in the city or not. The people in the city are already present in the people.txt file. The people
 # present in the city and who are also user's friends will be stored in the nearby_friends.txt file.
 
 def nearby_or_not(people_content):

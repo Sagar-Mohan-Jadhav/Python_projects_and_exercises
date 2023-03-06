@@ -26,5 +26,5 @@ near_friends = user_friends.intersection(nearby_people)
 if near_friends == {}:
     print(None)
 else:
-    print(user_friends.intersection(nearby_people))
+    print(f'{near_friends} is nearby.')
 

@@ -46,3 +46,9 @@ class Club:
 
     def __str__(self):
         return f'Club {self.name} with {len(self)} players'
+
+
+some_club = Club('Arsenal')
+some_club.players.append('Rolf')
+some_club.players.append('Sagar')
+print(some_club)

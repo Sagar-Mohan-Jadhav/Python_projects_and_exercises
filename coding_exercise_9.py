@@ -7,5 +7,6 @@ class Movie:
         return print(f'<<{self.movie_name}>> by {self.movie_director}')
 
 
-my_movie = Movie('The Matrix', 'Wachowski')
+mov = {'name': 'The Matrix', 'director': 'Wachowski'}
+my_movie = Movie(mov['name'], mov['director'])
 my_movie.print_info()

@@ -29,6 +29,6 @@ mov = {
     'director': 'Wachowski'
 }
 
-my_movie = Movie('The Matrix', 'Wachowski')
+my_movie = Movie(mov["name"], mov['director'])
 
 
